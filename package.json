@@ -1,0 +1,23 @@
+{
+  "name": "tg-antibot",
+  "version": "1.0.0",
+  "description": "Simple solution for preventing fake accounts joining and spamming small public Telegram servers.",
+  "main": "index.js",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Augiro/tg-antibot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Augiro/tg-antibot/issues"
+  },
+  "homepage": "https://github.com/Augiro/tg-antibot#readme"
+}
