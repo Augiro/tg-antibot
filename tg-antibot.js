@@ -69,4 +69,11 @@ bot.hears(["white", "White", "vit", "Vit"], (ctx) => {
     });
 });
 
+bot.start((ctx) => {
+  if (ctx.chat.id != ctx.from.id) {
+    return;
+  }
+  ctx.reply("Hello, do you have an answer to my question?");
+});
+
 bot.launch();
